@@ -9,7 +9,7 @@ subtitle: 走跬步，积小流
 description: stay hungry，stay foolish
 author: innnk
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%d-%m-%Y'
 
 # URL
@@ -224,7 +224,7 @@ social:
   email: innnk1989@gmail.com
   linkedin: https://www.linkedin.com/in/innnk/
   GitHub: https://github.com/innnk
-  zhihu: https://www.zhihu.com/people/yin-kai-31-66/activities
+  #zhihu: https://www.zhihu.com/people/yin-kai-31-66/activities
 
 
 
@@ -335,8 +335,8 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: true
+  wordcount: true
+  min2read: false
   separated_meta: true
 
 # Wechat Subscriber
@@ -388,8 +388,8 @@ highlight_theme: normal
 mathjax:
   enable: true
   per_page: true
-  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
-
+  #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
 # Han Support docs: https://hanzi.pro/
 han: false
 
