@@ -5,8 +5,8 @@
 
 # Site
 title: Innnk's inn
-subtitle: 
-description: FREEDOM
+subtitle: 走跬步，积小流
+description: stay hungry，stay foolish
 author: innnk
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -92,7 +92,7 @@ rss:
 since: 2016
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: pencil
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -125,7 +125,7 @@ menu:
   archives: /archives/
   about: /about/
   # sitemap: /sitemap.xml
-  commonweal: /404.html
+  # commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -222,8 +222,8 @@ font:
 social:
   #LinkLabel: Link
   email: innnk1989@gmail.com
-  GitHub: https://github.com/innnk
   linkedin: https://www.linkedin.com/in/innnk/
+  GitHub: https://github.com/innnk
 
 
 
@@ -240,7 +240,7 @@ social_icons:
   # Twitter: twitter
   Weibo: weibo
   email: envelope
-  linkedin: linkdin
+  linkedin: linkedin
   
 
 
@@ -334,15 +334,15 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
+  wordcount: true
   min2read: false
   separated_meta: true
 
 # Wechat Subscriber
-#wechat_subscriber:
- # enabled: true
-  #qcode: 
-  #description: 
+wechat_subscriber:
+  enabled: true
+  qcode: /assets/images/wechat-qcode.png
+  description: 欢迎交流讨论！
 
 # Reward settings
 reward_comment: 这是我的原创文章，如果觉得不错，可以打个赏~
@@ -351,7 +351,7 @@ wechatpay: /assets/images/wechat-reward-image.JPG
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
