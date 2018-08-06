@@ -224,6 +224,7 @@ social:
   email: innnk1989@gmail.com
   linkedin: https://www.linkedin.com/in/innnk/
   GitHub: https://github.com/innnk
+  zhihu: https://www.zhihu.com/people/yin-kai-31-66/activities
 
 
 
@@ -334,15 +335,15 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: true
-  min2read: false
+  wordcount: false
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
-wechat_subscriber:
-  enabled: true
-  qcode: /assets/images/wechat-qcode.png
-  description: 欢迎交流讨论！
+#wechat_subscriber:
+#  enabled: true
+#  qcode: /assets/images/wechat-qcode.png
+#  description: 欢迎交流讨论！
 
 # Reward settings
 reward_comment: 这是我的原创文章，如果觉得不错，可以打个赏~
@@ -351,7 +352,7 @@ wechatpay: /assets/images/wechat-reward-image.JPG
 
 # Declare license on posts
 post_copyright:
-  enable: true
+  enable: false
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
