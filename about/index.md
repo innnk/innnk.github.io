@@ -1,17 +1,18 @@
 ---
-title: about me
+title: about_me.py
 layout: page
 ---
-# Introduce.py
 ```python
 Class me(geek):
 
-   def init(self):
+	@learner
+	
+	@coder
+	
+   def __init__(self):
    
     self.name = "尹凯"
 
-    self.job = "航天数据工程师"
-    
     self.skill = ["机器学习", "深度学习", "算法", "力学相关"]
     
     self.language = ["English:CET6", "python", "c++"]
@@ -19,19 +20,29 @@ Class me(geek):
     self.tools = ["sklearn", "numpy", "pandas", "pytorch"]
     
     self.hobby = ["足球", "卡牌游戏"，"一切新鲜的事物"]
+	
+	self.wishjob = ["机器学习工程师", "深度学习工程师"]
 
    def contactMe(self):
 
     self.email = "innnk1989@gmail.com"
     
-    self.linkedin = ""
+    self.linkedin = "https://www.linkedin.com/in/innnk/"
     
-    self.github = ""
+    self.github = "https://github.com/innnk"
+	
+	def seeMyResume(self):
+  
+    	if need(self.wishjob[0])：click("<a href="/resume/cv-ml-k.yin-final.pdf">机器学习简历</a>")
+		
+        if need(self.wishjob[1])：click("<a href="/resume/cv-dl-k.yin.pdf">深度学习简历</a>")
+		
+        else thankYouForYourAttention()
 
    def seeMyResume(self):
  ```  
-    	if need("机器学习工程师")：click(<a href="/resume/cv-ml-k.yin-final.pdf">"这里:ML_resume"</a>)
+      if need(self.wishjob[0])：click("<a href="/resume/cv-ml-k.yin-final.pdf">机器学习简历</a>")
 		
-        if need("深度学习工程师")：click(<a href="/resume/cv-dl-k.yin.pdf>这里:DL_resume"</a>")
+      if need(self.wishjob[1])：click("<a href="/resume/cv-dl-k.yin.pdf">深度学习简历</a>")
 		
-        else pleaseSendMyResumeTo("HRs_who_want_me")
+      else print("Thank you for your attention!")
