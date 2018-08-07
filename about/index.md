@@ -2,41 +2,36 @@
 title: about me
 layout: page
 ---
+# Introduce.py
+```python
+Class me(geek):
 
-Hi
+   def init(self):
+   
+    self.name = "尹凯"
 
-I'm glad that you finally discovered my site!
+    self.job = "航天数据工程师"
+    
+    self.skill = ["机器学习", "深度学习", "算法", "力学相关"]
+    
+    self.language = ["English:CET6", "python", "c++"]
+    
+    self.tools = ["sklearn", "numpy", "pandas", "pytorch"]
+    
+    self.hobby = ["足球", "卡牌游戏"，"一切新鲜的事物"]
 
+   def contactMe(self):
 
- <h3>为什么写个人博客</h3>
-  
-  A place share my thoughts <a href="/resume/cv-dl-k.yin.pdf">分享即是意义</a>
-  
-  If your time to you is worth savin’ Then you better start swimming Or you’ll sink like a stone For the times they are a changin.
+    self.email = "innnk1989@gmail.com"
+    
+    self.linkedin = ""
+    
+    self.github = ""
 
-如果年华值得珍重，最好此刻开始游动，不然你将如石头沉至水底，因为这是变革的时代。  -   Bob Dylan
-
-
-
-<h3>我是谁</h3>
-
-A  girl born in 1993
- 
--  blue sky
--  music
-   - Deserts Zhang  
--  book
-   - literature
-   - psychology
--  sports
-   - lift
-   - runnning
-   - bicycling
-
-<h3>勾搭我</h3>
-
-* <i class="fa fa-envelope"></i>huyuning931218@126.com
-* <i class="fa fa-github"></i><a href="http://www.github.com/BleuHu/" target="_blank" title="BleuHu的github">我的GitHub</a>
-* <i class="fa fa-pencil"></i><a href="http://www.huyuning.com" target="_blank" title="我的个人博客"> River Flow（www.huyuning.com）</a>
-
-
+   def seeMyResume(self):
+ ```  
+    	if need("机器学习工程师")：click(<a href="/resume/cv-ml-k.yin-final.pdf">"这里:ML_resume"</a>)
+		
+        if need("深度学习工程师")：click(<a href="/resume/cv-dl-k.yin.pdf>这里:DL_resume"</a>")
+		
+        else pleaseSendMyResumeTo("HRs_who_want_me")
