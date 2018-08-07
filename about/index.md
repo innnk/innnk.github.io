@@ -10,7 +10,7 @@ I'm glad that you finally discovered my site!
 
  <h3>为什么写个人博客</h3>
   
-  A place share my thoughts <a href="https://sivers.org/sharing">分享即是意义</a>
+  A place share my thoughts <a href="/resume/cv-dl-k.yin.pdf">分享即是意义</a>
   
   If your time to you is worth savin’ Then you better start swimming Or you’ll sink like a stone For the times they are a changin.
 
