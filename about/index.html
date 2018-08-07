@@ -1,0 +1,29 @@
+---
+title: about_me.py
+layout: page
+---
+<pre name="code" class="python"> 
+<font color=#8959a8>class</font> <font color=#eab700>Me</font>(<font color=#eab700>geek</font>)：
+
+    <font color=#c82829>@learner</font>
+    <font color=#c82829>@coder</font>
+
+    <font color=#8959a8>def</font> <font color=#4271ae>__init__</font>(<font color=#f5871f>self</font>):
+        <font color=#f5871f>self</font>.name = <font color=#718c00>"尹凯"</font>
+        <font color=#f5871f>self</font>.skill = [<font color=#718c00>"机器学习"</font>, <font color=#718c00>"深度学习"</font>, <font color=#718c00>"算法"</font>, <font color=#718c00>"力学相关"</font>]
+        <font color=#f5871f>self</font>.language = [<font color=#718c00>"English:CET6"</font>, <font color=#718c00>"python"</font>, <font color=#718c00>"c++"</font>]
+        <font color=#f5871f>self</font>.tools = [<font color=#718c00>"sklearn"</font>, <font color=#718c00>"numpy"</font>, <font color=#718c00>"pandas"</font>, <font color=#718c00>"pytorch"</font>]
+        <font color=#f5871f>self</font>.hobby = [<font color=#718c00>"足球"</font>, <font color=#718c00>"卡牌游戏"</font>，<font color=#718c00>"一切新鲜的事物"</font>]
+        <font color=#f5871f>self</font>.wishjob = [<font color=#718c00>"机器学习工程师"</font>, <font color=#718c00>"深度学习工程师"</font>]
+	
+	
+    <font color=#8959a8>def</font> <font color=#4271ae>contactMe</font>(<font color=#f5871f>self</font>):
+        <font color=#f5871f>self</font>.email = <font color=#718c00>"innnk1989@gmail.com"</font>
+        <font color=#f5871f>self</font>.linkedin = <font color=#718c00>"https://www.linkedin.com/in/innnk/"</font>
+        <font color=#f5871f>self</font>.github = <font color=#718c00>"https://github.com/innnk"</font>
+
+    <font color=#8959a8>def</font> <font color=#4271ae>seeMyResume</font>(<font color=#f5871f>self</font>):
+        <font color=#8959a8>if</font> need(<font color=#f5871f>self</font>.wishjob[<font color=#718c00>0</font>])：click(<a href="/resume/cv-ml-k.yin-final.pdf">机器学习简历</a>)		
+        <font color=#8959a8>if</font> need(<font color=#f5871f>self</font>.wishjob[<font color=#718c00>1</font>])：click(<a href="/resume/cv-dl-k.yin.pdf">深度学习简历</a>)
+        <font color=#8959a8>else</font> print(<font color=#718c00>"Thanks for your attention!"</font>)
+</pre>  
