@@ -3,7 +3,8 @@ title: about_me.py
 layout: page
 ---
 <pre name="code" class="python"> 
-Class me(geek)：
+```python
+class me(geek)：
 
 @learner
 @coder
@@ -21,10 +22,9 @@ def contactMe(self):
     self.email = "innnk1989@gmail.com"
     self.linkedin = "https://www.linkedin.com/in/innnk/"
     self.github = "https://github.com/innnk"
-	
+```	
 	
 def seeMyResume(self):
-
 &nbsp;&nbsp;&nbsp;&nbsp;<font color=#8959a8>if</font> need(<font color=#f5871f>self</font>.wishjob[<font color=#718c00>0</font>])：click(<a href="/resume/cv-ml-k.yin-final.pdf">机器学习简历</a>)		
 &nbsp;&nbsp;&nbsp;&nbsp;<font color=#8959a8>if</font> need(<font color=#f5871f>self</font>.wishjob[<font color=#718c00>1</font>])：click(<a href="/resume/cv-dl-k.yin.pdf">深度学习简历</a>)
 &nbsp;&nbsp;&nbsp;&nbsp;<font color=#8959a8>else</font> print(<font color=#718c00>"thankYouForYourAttention"</font>)
