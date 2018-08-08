@@ -1,5 +1,5 @@
 # innnk blog
-[![TeamCity CodeBetter](https://img.shields.io/teamcity/codebetter/bt428.svg)](https://github.com/innnk/innnk.github.io)[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/innnk/innnk.github.io/blob/master/LICENSE)[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/innnk/myblog)
+[![TeamCity CodeBetter](https://img.shields.io/teamcity/codebetter/bt428.svg)](https://github.com/innnk/innnk.github.io)[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/innnk/innnk.github.io/blob/master/LICENSE) [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/innnk/myblog)
 
 ### [View Live innnk Blog &rarr;](https://yink.xyz)
 ![blog_preview](https://blog-img-1257227635.cos.ap-beijing.myqcloud.com/blog_preview.png)
