@@ -1,9 +1,6 @@
 # innnk blog
-<<<<<<< HEAD
 [![TeamCity CodeBetter](https://img.shields.io/teamcity/codebetter/bt428.svg)](https://github.com/innnk/innnk.github.io)[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/innnk/innnk.github.io/blob/master/LICENSE)[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/innnk/myblog)
 =======
-[![TeamCity CodeBetter](https://img.shields.io/teamcity/codebetter/bt428.svg)](https://github.com/innnk/innnk.github.io)[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/innnk/innnk.github.io/blob/master/LICENSE) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/innnk/myblog)
->>>>>>> 51ed661c6d9f7f7fbad824db46728ab08fa2091e
 
 ### [View Live innnk Blog &rarr;](https://yink.xyz)
 ![blog_preview](https://blog-img-1257227635.cos.ap-beijing.myqcloud.com/blog_preview.png)
